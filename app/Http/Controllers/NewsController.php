@@ -39,7 +39,8 @@ class NewsController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('news');
+
     }
     /**
      * Show the form for editing the specified resource.
